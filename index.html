@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image" href="icon image.png">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#student">Student</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#Customer Care">Customer Care</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="home"><h1>Government College Of Hyderabad</h1><br><p>-Welcome to Government College- </p>
+            <br><div class="image">
+                <img src="clg.jpeg"
+                height="250px;">
+                
+                </div>
+        </section>
+        <section id="student">
+            <main>
+                <h1 >Student Login </h1>
+        
+                <form action="index.php" method="Post" >
+                    <label for="studentid">student Id: </label>
+                    <input type="text" id="studentid" placeholder="EX:207r1a05d7"
+                     minlength="10" maxlenght="10">
+                    <br>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" placeholder="strong password">
+                    <br>
+                    <input type="reset">
+                    <input type="submit">
+        
+                </form>
+                <style>
+                    body{
+                        background-image:url(bimage.jpg);
+                        background-repeat:center;
+                    }
+                    
+                </style>
+            </main>
+        </section>
+        <section id="faculty">
+            <main>
+                <h1 >Faculty Login </h1>
+        
+                <form action="index.php" method="Post" >
+                    <label for="facultyid">Faculty Id: </label>
+                    <input type="text" id="facultyid" placeholder="Ex84649****7"
+                     minlength="10" maxlenght="10">
+                    <br>
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" placeholder="strong password">
+                    <br>
+                    <input type="reset">
+                    <input type="submit">
+        
+                </form>
+            </main>
+        </section>
+        <section id="Customer Care">
+            <h1>Customer Care</h1>
+            <h4>You can contact here by using ChatBot <br><a href="chatbot.html"><button calss="button"; style=" font-size: 25x;
+             background-color:rgb(20, 123, 220); border-radius: 30px;">Chat Bot
+
+            </button></a> </h4><br>
+            <div class="image">
+            <img src="customercare.jpg"
+            height="200px;">
+            
+            </div>
+            
+
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
